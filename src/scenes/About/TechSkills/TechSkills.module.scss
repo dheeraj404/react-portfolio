@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .techIcon {
@@ -17,21 +18,40 @@
   will-change: transform;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 1.7px solid #6b6b6b51;
-  // box-shadow: 0 0 0 3px rgba(89, 4, 168, 0.137);
+  border: 1.7px solid rgba(107, 107, 107, 0.31);
   outline-color: transparent;
-  transition: .2s;
+  transition: 0.2s;
   background: rgba(255, 255, 255, 0.067);
-  // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  min-width: 100px; 
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  min-width: 100px;
   min-height: 100px;
-
 
   &:hover {
     transform: scale(1.05);
     border-color: rgba(115, 205, 230, 0.883);
     box-shadow: 0 0 0 1px #11b9ecc5;
+  }
+}
+
+/* Adjustments for tablets */
+@media (max-width: 768px) {
+  .techIcon {
+    font-size: 3.5rem;
+    margin: 12px;
+    padding: 1.8rem 3.5rem;
+    min-width: 90px;
+    min-height: 90px;
+  }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 480px) {
+  .techIcon {
+    font-size: 3rem;
+    margin: 10px;
+    padding: 1.5rem 3rem;
+    min-width: 80px;
+    min-height: 80px;
   }
 }

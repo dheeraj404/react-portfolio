@@ -25,7 +25,10 @@
     font-size: 2.6rem;
     text-align: center;
   }
-
+.t_a{
+  display: flex;
+justify-content: space-between;
+}
   .description {
     padding-top: 2.5rem;
     font-size: 1.3rem;
@@ -90,4 +93,16 @@
 .socialIcon:hover {
   transform: scale(1.1);
   box-shadow: 0 0 15px var(--social-shadow);
+}
+
+@media only screen and (max-width: 768px) {
+  /* CSS rules for screens smaller than 600px */
+  .t_a{
+    display: flex;
+  flex-direction: column-reverse;
+  }
+  .avatar{
+display: flex;
+justify-content: center;
+  }
 }

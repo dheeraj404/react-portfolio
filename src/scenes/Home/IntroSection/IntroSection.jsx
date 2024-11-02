@@ -16,7 +16,7 @@ const IntroSection = () => {
             LET ME <span className={s.purple}> INTRODUCE </span>{' '}
             MYSELF
           </h1>
-<div style={{display:'flex'}}>
+<div className={s.t_a}>
           <div className={s.description}>
             <p>
               I'm a passionate software developer currently pursuing a
@@ -45,9 +45,11 @@ const IntroSection = () => {
               problems.
             </p>
           </div>
+          <div className={s.avatar}>
           <Tilt trackOnWindow={true}>
           <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
         </Tilt>
+        </div>
         </div>
         </div>
 
