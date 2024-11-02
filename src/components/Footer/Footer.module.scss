@@ -22,7 +22,16 @@
     margin-bottom: 0.5rem;
   }
 }
+.footer {
+  // Your existing styles
 
+  .heart {
+    color: #3aafd9;          // Set the heart color
+    margin: 0 5px;            // Optional: Adjust spacing around the heart
+    vertical-align: middle;   // Aligns the heart icon vertically with the text
+    font-size: 1.2em;         // Adjust the size to match text if needed
+  }
+}
 .copyright {
   flex: 1;
   text-align: center;
@@ -51,4 +60,21 @@
 
 .socialIcons {
   color: var(--txt)
+}
+.footer {
+  // Your existing styles
+
+  .socialIcons {
+    display: flex;
+    gap: 10px; // Adjust the spacing as desired
+
+    li a {
+      color: inherit; // Keeps the default color
+
+      &:hover {
+        color: #3aafd9; // Hover color effect
+        transition: color 0.3s ease; // Smooth transition
+      }
+    }
+  }
 }

@@ -2,17 +2,18 @@ import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
 import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare';
 import { FaLinkedinIn } from '@react-icons/all-files/fa/FaLinkedinIn';
 import { FaTelegramPlane } from '@react-icons/all-files/fa/FaTelegramPlane';
+import { SiLeetcode } from '@react-icons/all-files/si/SiLeetcode';
+import { AiFillHeart } from '@react-icons/all-files/ai/AiFillHeart';
 import s from './Footer.module.scss';
 
 const Footer = () => {
-  // let date = new Date();
-  // let year = date.getFullYear();
-
   return (
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h1>Made with ❤️ by Dheeraj</h1>
+          <h1>
+            Made with <AiFillHeart className={s.heart} /> by Dheeraj
+          </h1>
         </div>
 
         <div className={s.body}>
@@ -55,6 +56,16 @@ const Footer = () => {
                 aria-label="linkedin"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://leetcode.com/u/user0530o/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="leetcode"
+              >
+                <SiLeetcode />
               </a>
             </li>
           </ul>
