@@ -1,0 +1,90 @@
+.content {
+  padding: 9rem 9rem 3rem;
+}
+
+.about {
+  padding-left: .2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutDescription {
+}
+// .text_image{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+// }
+
+// .aboutImg {
+ 
+//  width: 100%;
+//   padding: 4rem 1rem 5rem 1rem;
+
+//   img {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+//   }
+// }
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 20px
+}
+// .text_image {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between; // Ensure space between the two divs
+//   width: 95%; // Set the width of the container to 80%
+//   margin: 0 auto; // Center the container
+// }
+
+// .aboutTextCard {
+//   width: 50%; // Set the width of the text card to 50%
+// }
+
+// .aboutImg {
+//   width: 50%; // Set the width of the image container to 50%
+//   padding: 4rem 1rem 5rem 1rem;
+
+//   img {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+//   }
+// }
+
+
+.skills {
+  @extend .title;
+  font-size: 2.2rem;
+  padding-top: 3rem;
+}
+
+.githubActivity {
+  @extend .title;
+  font-size: 2.2rem;
+  padding-top: 4rem;
+}
+
+.purple {
+  color: var(--txt-secondary);
+}
+
+
+@media (max-width: 925px) {
+  .content {
+    padding: 6rem 3rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}

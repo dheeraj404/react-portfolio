@@ -1,0 +1,63 @@
+.light {
+  --txt: #000;
+  --txt-secondary: #11b9ec;
+  --txt-sec-darker: #11b9ec;
+  --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-home-section-main: none;
+  --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-primary: #fafafa;
+  --bg: #11b9ec;
+  --bg-active: rgba(35, 187, 218, 0.923);
+  --bg-header: transparent;
+  --bg-footer: transparent;
+  --backdrop: rgba(0, 0, 0, 0.8);
+  --card-shadow: rgba(129, 72, 144, 0.1);
+  --primary: #11b9ec;
+  --border-primary: #11b9ec;
+  --logo-primary: #11b9ec;
+  --social-icon: #11b9ec;
+  --social-shadow: #11b9ec;
+  --preloader: #fafafa;
+  --bg-modal: #fafafa;
+  --modal-border: none;
+  --modal-close: #11b9ec;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  --btn: #11b9ec;
+  --btn-hover:#11b9ec;
+  --btn-primary-txt: #fff;
+  --tags:#11b9ec;
+  --tags-txt: #fff;
+  --toggle-theme: #000;
+}
+
+.dark {
+  --txt: #e4e1ff; 
+  --txt-secondary: #11b9ec; 
+  --txt-sec-darker: ##11b9ec; 
+  --bg-layout-home: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0));
+  --bg-home-section-main: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0)); 
+  --bg-layout-base: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0));
+  --bg-primary: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 0, 0));
+  --bg: rgb(33, 24, 56);
+  --bg-active: rgba(8, 238, 254, 0.946);
+  --backdrop: rgba(10, 5, 25, 0.75);
+  --card-shadow: rgba(40, 32, 62, 0.7);
+  --primary: #11b9ec;
+  --border-primary: #11b9ec;
+  --logo-primary: #11b9ec;
+  --social-icon: #11b9ec;
+  --social-shadow: #11b9ec;
+  --preloader: black;
+  --bg-modal:  rgba(1, 1, 29, 0.9); 
+  --modal-border: 1px solid rgba(255, 255, 255, 0.1); 
+  --modal-close: RGB(35, 23, 59); 
+  --modal-close-icon: #fff; 
+  --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); 
+  --btn: #11b9ec;
+  --btn-hover:#11b9ec;
+  --btn-primary-txt: #fff; 
+  --tags: rgb(2, 204, 255);
+  --tags-txt: #fff; 
+  --toggle-theme: #fff; 
+}
